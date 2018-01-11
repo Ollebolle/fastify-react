@@ -4,6 +4,12 @@ const fastify = require('fastify')({
     prettyPrint: true
   }
 })
+const path = require('path')
+
+fastify.register(require('fastify-static'), {
+  root: path.join(__dirname, 'public'),
+  prefix: '/'
+})
 
 fastify.listen(3000, (err) => {
   if (err) {

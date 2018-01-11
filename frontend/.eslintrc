@@ -1,0 +1,28 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "mocha": true
+  },
+  "rules": {
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "comma-dangle": ["error", "never"],
+    "global-require": "off",
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "no-console": "off",
+    "no-floating-decimal": "error",
+    "react/jsx-filename-extension": "off",
+    "react/prop-types": "off",
+    "react/prefer-stateless-function": 0,
+    "react/jsx-curly-spacing": 0,
+    "no-unused-vars": 0,
+    "camelcase": [
+        0, { "properties": "always" }
+    ],
+    "template-curly-spacing": 0,
+    "no-mixed-operators": 0
+  }
+}

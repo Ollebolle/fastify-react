@@ -1,0 +1,19 @@
+{
+  "name": "fastify-react",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Ollebolle/fastify-react.git"
+  },
+  "author": "Ollebolle",
+  "license": "ISC",
+  "homepage": "https://github.com/Ollebolle/fastify-react#README",
+  "dependencies": {
+    "fastify": "^0.38.0"
+  }
+}
